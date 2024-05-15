@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div id="container">
+        <input type="text" id="display" readonly>
+        <div id="keys">
+            <button onclick="clearDisplay()" class="operator">AC</button>
+            <button onclick="squareRoot('+')" class="oeperator-btn">&Sqrt;</button>
+            <button onclick="pressToDisplay('%')" class="oeperator-btn">%</button>
+            <button onclick="pressToDisplay('/')" class="oeperator-btn">/</button>
+            <button onclick="pressToDisplay('7')">7</button>
+            <button onclick="pressToDisplay('8')">8</button>
+            <button onclick="pressToDisplay('9')">9</button>
+            <button onclick="pressToDisplay('*')" class="oeperator-btn">*</button>
+            <button onclick="pressToDisplay('4')">4</button>
+            <button onclick="pressToDisplay('5')">5</button>
+            <button onclick="pressToDisplay('6')">6</button>
+            <button onclick="pressToDisplay('-')" class="oeperator-btn">-</button>
+            <button onclick="pressToDisplay('1')">1</button>
+            <button onclick="pressToDisplay('2')">2</button>
+            <button onclick="pressToDisplay('3')">3</button>
+            <button onclick="pressToDisplay('+')" class="oeperator-btn">+</button>
+            <button onclick="pressToDisplay('0')">0</button>
+            <button onclick="pressToDisplay('00')">00</button>
+            <button onclick="pressToDisplay('.')">.</button>
+            <button onclick="calculate()" class="oeperator-btn">=</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
