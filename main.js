@@ -15,7 +15,6 @@ function calculate() {
     catch {
         display.value = "Error"
     }
-    
 }
 
 function squareRoot() {

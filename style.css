@@ -85,3 +85,7 @@ input {
     border: none;
     outline: none;
 }
+
+::placeholder {
+    color: #091d15;
+}
